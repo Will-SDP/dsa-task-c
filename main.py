@@ -20,7 +20,7 @@ def run_experiment():
     dataset = helpers.generate_dataset(1000)
     print("Performing bubble sort")
     start = time.thread_time_ns()
-    #bubble_sort(dataset)
+    bubble_sort(dataset)
     end = time.thread_time_ns()
     duration_nano = (end - start)/100000
     print("Bubble Sort Duration: ",duration_nano)
