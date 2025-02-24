@@ -17,7 +17,7 @@ def experiment():
     print()
 
 def run_experiment():
-    dataset = helpers.generate_dataset(10000000)
+    dataset = helpers.generate_dataset(1000)
     print("Performing bubble sort")
     start = time.thread_time_ns()
     #bubble_sort(dataset)
